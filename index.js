@@ -17,8 +17,6 @@ class Mail {
     this.BCC = null;
     this.ATTACHMENTS = [];
     this.TEXT = null
-    this.viewEngine;
-    this.option;
   }
 
   /**
@@ -148,7 +146,8 @@ class Mail {
    * 
    * @returns {Nodemailer Promise}
    */
-  async send() {
+  async send() 
+  {
 
     this.mailer = nodemailer.createTransport({
       host: process.env.MAIL_HOST,
