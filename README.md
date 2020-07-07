@@ -1,6 +1,6 @@
 # Node-Mail-Helper
 
-Nodemailer Helper For Sending Eamils With Ejs Templating
+Nodemailer Helper For Sending Eamils With Ejs Templating.
 
 ## Install
 
@@ -10,7 +10,7 @@ npm install node-mail-helper
 
 ## Prerequisite
 
-This package requires the following evirmement configs
+This package requires the following env variables.
 
 ```
 MAIL_DRIVER=smtp
