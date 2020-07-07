@@ -1,7 +1,7 @@
 {
   "name": "node-mail-helper",
   "version": "1.0.0",
-  "description": "Nodemailer Helper For Sending Eamils With Ejs Templating",
+  "description": "Nodemailer Helper For Sending Emails With Ejs Templating",
   "main": "index.js",
   "engines": {
     "node": ">=8.0.0"

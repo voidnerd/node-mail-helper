@@ -1,8 +1,8 @@
 # Node-Mail-Helper
 
-Nodemailer Helper For Sending Eamils With Ejs Templating.
+Nodemailer Helper For Sending Emails With Ejs Templating.
 
-## Install
+## Installation
 
 ```
 npm install node-mail-helper
