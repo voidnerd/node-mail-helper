@@ -30,7 +30,12 @@ N/B: MAIL_ENCRYPTION should be `tls` or `ssl` for secure channels and `blank` fo
 const Mail = require("node-mail-helper");
 const path = require("path");
 
-const templatePath = path.join(__dirname, "./email/welcome.ejs");
+const mailData = {
+    name: "Ndifreke Friday",
+    city: "Lagos"
+}
+
+const templatePath = path.join(__dirname, "./emails/welcome.ejs");
 
 const mail = new Mail();
  await mail
@@ -47,7 +52,12 @@ const mail = new Mail();
 const Mail = require("node-mail-helper");
 const path = require("path");
 
-const templatePath = path.join(__dirname, "./email/welcome.ejs");
+const mailData = {
+    name: "Ndifreke Friday",
+    city: "Lagos"
+}
+
+const templatePath = path.join(__dirname, "./emails/welcome.ejs");
 
 const attactments = [
         {   // utf-8 string as an attachment
