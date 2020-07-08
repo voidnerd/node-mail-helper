@@ -1,6 +1,6 @@
 {
   "name": "node-mail-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodemailer Helper For Sending Emails With Ejs Templating",
   "main": "index.js",
   "engines": {
