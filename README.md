@@ -12,7 +12,7 @@ npm install node-mail-helper
 
 This package requires the following env variables.
 
-```
+```python
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
@@ -26,7 +26,7 @@ N/B: MAIL_ENCRYPTION should be `tls` or `ssl` for secure channels and `blank` fo
 
 ## Usage
 
-```
+```js
 const Mail = require("node-mail-helper");
 const path = require("path");
 
@@ -48,7 +48,7 @@ const mail = new Mail();
 
 ### The bellow example has all available methods
 
-```
+```js
 const Mail = require("node-mail-helper");
 const path = require("path");
 
